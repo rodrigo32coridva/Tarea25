@@ -1,4 +1,4 @@
-# Tarea25 - SiteOtaku 🌸
+# Tarea6 - SiteOtaku 🌸
 
 Proyecto web desarrollado como parte de una tarea académica.  
 Se trata de una plataforma temática tipo **Otaku/Anime**, creada con **HTML, CSS y Bootstrap 5**, que incluye:
