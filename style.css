@@ -62,13 +62,13 @@ body {
 }
 
 .login-btn {
-  background-color: #ff3860;
-  border-color: #ff3860;
+  background-color: #0acdf4;
+  border-color: #02c4ff;
 }
 
 .login-btn:hover {
-  background-color: #ff1744;
-  border-color: #ff1744;
+  background-color: #c7052c;
+  border-color: #635bfd;
 }
 
 .otaku-title {
@@ -81,7 +81,7 @@ body {
 }
 
 a {
-  color: #ffd4da;
+  color: #f16477;
 }
 
 a:hover {
