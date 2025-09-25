@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteOtaku</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-marino">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SiteOtaku</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Genero
+              </a>
+             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Acción</a></li>
+              <li><a class="dropdown-item" href="#">Aventura</a></li>
+              <li><a class="dropdown-item" href="#">Comedia</a></li>
+              <li><a class="dropdown-item" href="#">Drama</a></li>
+              <li><a class="dropdown-item" href="#">Fantasía</a></li>
+              <li><a class="dropdown-item" href="#">Slice of Life</a></li>
+              <li><a class="dropdown-item" href="#">Horror</a></li>
+              <li><a class="dropdown-item" href="#">Mecha</a></li>
+              <li><a class="dropdown-item" href="#">Romance</a></li>
+              <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
+              <li><a class="dropdown-item" href="#">Misterio</a></li>
+              <li><a class="dropdown-item" href="#">Psicológico</a></li>
+              <li><a class="dropdown-item" href="#">Sobrenatural</a></li>
+              <li><a class="dropdown-item" href="#">Deportes</a></li>
+              <li><a class="dropdown-item" href="#">Escolar</a></li>
+              <li><a class="dropdown-item" href="#">Magia</a></li>
+              <li><a class="dropdown-item" href="#">Historico</a></li>
+              <li><a class="dropdown-item" href="#">Musical</a></li>
+             </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form id="search-form" class="d-flex" role="search">
+            <input
+              id="search-input"
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+ <section class="container my-5">
+  <div id="cards-container" class="row justify-content-center g-4">
+
+    <!-- Carta 1 -->
+    <div id="card1" class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="video-container">
+          <div
+            class="video-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+            data-video="https://www.youtube.com/embed/RfmDF1pY8Sk"
+          >
+            <iframe src="https://www.youtube.com/embed/RfmDF1pY8Sk" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">El Tiempo Contigo</h5>
+          <p class="card-text">
+            Hodaka huye a Tokio y conoce a Hina, una chica que controla la lluvia. Juntos
+            inician un negocio con sus poderes, pero enfrentan problemas con la policía.
+            Hina usa su poder para detener la lluvia, afectando su salud y desaparece.
+            Hodaka la busca, ambos son arrestados y la lluvia vuelve. Tras cumplir su
+            condena, Hodaka regresa y se reencuentra con Hina, prometiendo estar juntos.
+          </p>
+          <button type="button" class="btn btn-outline-primary">Ver Online</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carta 2 -->
+    <div id="card2" class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="video-container">
+          <div
+            class="video-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+            data-video="https://www.youtube.com/embed/VkuirkOr7_M"
+          >
+            <iframe src="https://www.youtube.com/embed/VkuirkOr7_M" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">CHAINSAW MAN LA PELÍCULA: EL ARCO DE REZE</h5>
+          <p class="card-text">
+            Denji, convertido en Chainsaw Man, lucha contra demonios y se une a la División
+            Especial 4. Tras una cita con Makima, conoce a Reze, una chica que trabaja en
+            una cafetería y guarda secretos. La historia sigue sus encuentros y conflictos
+            mientras Denji enfrenta peligrosos enemigos demoníacos.
+          </p>
+          <button type="button" class="btn btn-outline-primary">Ver Online</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carta 3 -->
+    <div id="card3" class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="video-container">
+          <div
+            class="video-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+            data-video="https://www.youtube.com/embed/SKQWT0As7oc"
+          >
+            <iframe src="https://www.youtube.com/embed/SKQWT0As7oc" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Demon Slayer: Kimetsu no Yaiba Castillo Infinito</h5>
+          <p class="card-text">
+            Tanjiro y sus amigos continúan su lucha contra poderosos demonios para salvar a su
+            hermana Nezuko y proteger a la humanidad. En esta saga, enfrentan un enemigo
+            formidable en un castillo lleno de peligros y trampas, poniendo a prueba su fuerza
+            y determinación.
+          </p>
+          <button type="button" class="btn btn-outline-primary">Ver Online</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carta 4 -->
+    <div id="card4" class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="video-container">
+          <div
+            class="video-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+            data-video="https://www.youtube.com/embed/e39WEQGz4Nw"
+          >
+            <iframe src="https://www.youtube.com/embed/e39WEQGz4Nw" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Gachiakuta</h5>
+          <p class="card-text">
+            Un joven apasionado por la música encuentra inspiración en su entorno y lucha por
+            cumplir sus sueños. La historia explora sus desafíos personales, relaciones y el
+            poder del arte para transformar vidas, todo mientras busca su lugar en el mundo.
+          </p>
+          <button type="button" class="btn btn-outline-primary">Ver Online</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carta 5 -->
+    <div id="card5" class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="video-container">
+          <div
+            class="video-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+            data-video="https://www.youtube.com/embed/1FcVJxxPWh4"
+          >
+            <iframe src="https://www.youtube.com/embed/1FcVJxxPWh4" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">The Fragrant Flower Blooms With Dignity</h5>
+          <p class="card-text">
+            Una mujer fuerte y elegante enfrenta las dificultades de la vida con gracia y
+            dignidad. La historia sigue su crecimiento personal, sus relaciones y la lucha
+            por mantener su integridad en un mundo complejo y desafiante.
+          </p>
+          <button type="button" class="btn btn-outline-primary">Ver Online</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carta 6 -->
+    <div id="card6" class="col-md-4 d-flex justify-content-center">
+      <div class="card" style="width: 18rem;">
+        <div class="video-container">
+          <div
+            class="video-thumbnail"
+            data-bs-toggle="modal"
+            data-bs-target="#videoModal"
+            data-video="https://www.youtube.com/embed/1b9L3J_1N9U"
+          >
+            <iframe src="https://www.youtube.com/embed/1b9L3J_1N9U" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">DIGIMON AVENTURE 02: THE BEGINNING</h5>
+          <p class="card-text">
+            Los niños elegidos regresan para enfrentar nuevas amenazas en el mundo digital.
+            Con la ayuda de sus Digimon, luchan para proteger ambos mundos mientras descubren
+            misterios y secretos que cambian su destino.
+          </p>
+          <button type="button" class="btn btn-outline-primary">Ver Online</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination d-flex justify-content-center">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
