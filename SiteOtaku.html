@@ -4,16 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SiteOtaku</title>
+  <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<link rel="stylesheet" href="css/style.css">
+    <!-- Enlace de Style de Pagina  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Enlace de Style al Icono de pagina (Sugerido 32x32)  -->
+  <link rel="icon" href="icon/favicon-32x32.png" type="image/png">
+
 </head>
 <body>
 
  <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-marino">
-
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">SiteOtaku</a>
+        <a class="navbar-brand" href="/SiteOtaku.html">
+        <img src="icon/logo.png" alt="SiteOtaku Logo" class="navbar-logo">
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -21,8 +27,7 @@
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,11 +44,9 @@
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
+                aria-expanded="false">
                 Genero
               </a>
-
              <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Acción</a></li>
               <li><a class="dropdown-item" href="#">Aventura</a></li>
@@ -82,7 +85,7 @@
         </div>
       </div>
     </nav>
-  </header>
+ </header>
 
  <section class="container my-5">
   <div id="cards-container" class="row justify-content-center g-4">
@@ -95,13 +98,21 @@
             class="video-thumbnail"
             data-bs-toggle="modal"
             data-bs-target="#videoModal"
-            data-video="https://www.youtube.com/embed/RfmDF1pY8Sk"
-          >
+            data-video="https://www.youtube.com/embed/RfmDF1pY8Sk">
             <iframe src="https://www.youtube.com/embed/RfmDF1pY8Sk" allowfullscreen></iframe>
           </div>
         </div>
         <div class="card-body">
+          <button class="favorite-btn" aria-label="Agregar a favoritos">❤️</button>
           <h5 class="card-title">El Tiempo Contigo</h5>
+          <div>
+            <span class="badge-genre">Romance</span>
+            <span class="badge-genre">Drama</span>
+            <span class="badge-genre">Fantasia</span>
+          </div>
+          <div class="rating" aria-label="Valoración 4 de 5 estrellas">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+          </div>
           <p class="card-text">
             Hodaka huye a Tokio y conoce a Hina, una chica que controla la lluvia. Juntos
             inician un negocio con sus poderes, pero enfrentan problemas con la policía.
@@ -128,7 +139,15 @@
           </div>
         </div>
         <div class="card-body">
+          <button class="favorite-btn" aria-label="Agregar a favoritos">❤️</button>
           <h5 class="card-title">CHAINSAW MAN LA PELÍCULA: EL ARCO DE REZE</h5>
+          <div>
+            <span class="badge-genre">Acción</span>
+            <span class="badge-genre">Sobrenatural</span>
+          </div>
+          <div class="rating" aria-label="Valoración 5 de 5 estrellas">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
           <p class="card-text">
             Denji, convertido en Chainsaw Man, lucha contra demonios y se une a la División
             Especial 4. Tras una cita con Makima, conoce a Reze, una chica que trabaja en
@@ -148,13 +167,21 @@
             class="video-thumbnail"
             data-bs-toggle="modal"
             data-bs-target="#videoModal"
-            data-video="https://www.youtube.com/embed/SKQWT0As7oc"
-          >
+            data-video="https://www.youtube.com/embed/SKQWT0As7oc">
             <iframe src="https://www.youtube.com/embed/SKQWT0As7oc" allowfullscreen></iframe>
           </div>
         </div>
         <div class="card-body">
+          <button class="favorite-btn" aria-label="Agregar a favoritos">❤️</button>
           <h5 class="card-title">Demon Slayer: Kimetsu no Yaiba Castillo Infinito</h5>
+          <div>
+            <span class="badge-genre">Acción</span>
+            <span class="badge-genre">Aventura</span>
+            <span class="badge-genre">Sobrenatural</span>
+          </div>
+          <div class="rating" aria-label="Valoración 4.5 de 5 estrellas">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>½</span>
+          </div>
           <p class="card-text">
             Tanjiro y sus amigos continúan su lucha contra poderosos demonios para salvar a su
             hermana Nezuko y proteger a la humanidad. En esta saga, enfrentan un enemigo
@@ -174,13 +201,20 @@
             class="video-thumbnail"
             data-bs-toggle="modal"
             data-bs-target="#videoModal"
-            data-video="https://www.youtube.com/embed/e39WEQGz4Nw"
-          >
+            data-video="https://www.youtube.com/embed/e39WEQGz4Nw">
             <iframe src="https://www.youtube.com/embed/e39WEQGz4Nw" allowfullscreen></iframe>
           </div>
         </div>
         <div class="card-body">
+          <button class="favorite-btn" aria-label="Agregar a favoritos">❤️</button>
           <h5 class="card-title">Gachiakuta</h5>
+          <div>
+            <span class="badge-genre">Drama</span>
+            <span class="badge-genre">Música</span>
+          </div>
+          <div class="rating" aria-label="Valoración 3.5 de 5 estrellas">
+            <span>★</span><span>★</span><span>★</span><span>½</span><span>☆</span>
+          </div>
           <p class="card-text">
             Un joven apasionado por la música encuentra inspiración en su entorno y lucha por
             cumplir sus sueños. La historia explora sus desafíos personales, relaciones y el
@@ -205,7 +239,15 @@
           </div>
         </div>
         <div class="card-body">
+          <button class="favorite-btn" aria-label="Agregar a favoritos">❤️</button>
           <h5 class="card-title">The Fragrant Flower Blooms With Dignity</h5>
+          <div>
+            <span class="badge-genre">Drama</span>
+            <span class="badge-genre">Romance</span>
+          </div>
+          <div class="rating" aria-label="Valoración 4 de 5 estrellas">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+          </div>
           <p class="card-text">
             Una mujer fuerte y elegante enfrenta las dificultades de la vida con gracia y
             dignidad. La historia sigue su crecimiento personal, sus relaciones y la lucha
@@ -224,13 +266,20 @@
             class="video-thumbnail"
             data-bs-toggle="modal"
             data-bs-target="#videoModal"
-            data-video="https://www.youtube.com/embed/1b9L3J_1N9U"
-          >
+            data-video="https://www.youtube.com/embed/1b9L3J_1N9U">
             <iframe src="https://www.youtube.com/embed/1b9L3J_1N9U" allowfullscreen></iframe>
           </div>
         </div>
         <div class="card-body">
+          <button class="favorite-btn" aria-label="Agregar a favoritos">❤️</button>
           <h5 class="card-title">DIGIMON AVENTURE 02: THE BEGINNING</h5>
+          <div>
+            <span class="badge-genre">Aventura</span>
+            <span class="badge-genre">Fantasía</span>
+          </div>
+          <div class="rating" aria-label="Valoración 3 de 5 estrellas">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
           <p class="card-text">
             Los niños elegidos regresan para enfrentar nuevas amenazas en el mundo digital.
             Con la ayuda de sus Digimon, luchan para proteger ambos mundos mientras descubren
@@ -240,8 +289,9 @@
         </div>
       </div>
     </div>
+
   </div>
-</section>
+ </section>
 
   <nav aria-label="Page navigation example">
     <ul class="pagination d-flex justify-content-center">
@@ -262,16 +312,14 @@
   </nav>
 
 
- <footer>
-<footer class="bg-dark text-light py-4 mt-5">
+ <footer class="bg-dark text-light py-4 mt-5">
   <div class="container text-center">
     <p class="mb-1">© 2025 SiteOtaku. Todos los derechos reservados.</p>
     <p class="mb-0">
       Desarrollado por <a href="https://github.com/rodrigo32coridva" target="_blank" class="text-decoration-none text-info">Rodrigo Coridva</a>
     </p>
   </div>
-</footer>
-
-</body>
+ </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
 </html>

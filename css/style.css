@@ -33,7 +33,7 @@ background-image: url('../Img/fondo3.jpg');
 }
 
 
-/* ---------- ESTILOS SOLO PARA LOGIN ---------- */
+/* ---------- ESTILOS PARA LOGIN y REGISTER ---------- */
 .login-body {
 background-image: url('../Img/fondologin.jpg');
   background-size: cover;
@@ -88,3 +88,92 @@ a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
+
+/* MODIFICACION EN EL NAVBAR */
+.navbar {
+  height: 60px;          /* Altura fija del navbar */
+  min-height: 60px;
+  padding: 0 1rem;       /* Ajusta el padding horizontal si quieres */
+  /*overflow: hidden;      /* Para evitar que algo sobresalga */
+  display: flex;         /* Para alinear contenido */
+  align-items: center;   /* Centrar verticalmente */
+  position: relative;    /* Asegura que los dropdowns posicionados absolutamente se ubiquen bien */
+}
+
+/*  Modificacion de tamaño del icono ( pagina)      */
+
+.navbar-logo {
+  max-height: 80px;  
+  width: auto;
+  display: block;
+}
+
+
+ /* Estilos para badges de género */
+    .badge-genre {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      padding: 0.25em 0.6em;
+      font-size: 0.75rem;
+      border-radius: 0.25rem;
+      margin-right: 0.3rem;
+      user-select: none;
+    }
+
+    /* Favorito toggle simulado con CSS */
+    .favorite-btn {
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-size: 1.4rem;
+      color: #ccc;
+      transition: color 0.3s ease;
+      user-select: none;
+      float: right;
+    }
+    .favorite-btn:hover {
+      color: red;
+    }
+
+    /* Rating con estrellas (CSS puro) */
+    .rating {
+      unicode-bidi: bidi-override;
+      color: #ccc;
+      font-size: 1.1rem;
+      height: 1em;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .rating > span {
+      display: inline-block;
+      position: relative;
+      width: 1.1em;
+      color: gold;
+    }
+
+    /* Animación hover para card */
+    .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      z-index: 10;
+    }
+
+    /* Contador de vistas estático */
+    .views-counter {
+      font-size: 0.8rem;
+      color: #555;
+      margin-top: 0.4rem;
+      user-select: none;
+    }
+
+    /* Limpiar floats */
+    .card-body::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
