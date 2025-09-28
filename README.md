@@ -25,12 +25,15 @@ Se trata de una plataforma temática tipo **Otaku/Anime**, creada con **HTML, CS
 
 ```plaintext
 Tarea25/
-├── index.html            # Página principal (SiteOtaku)
-├── login.html            # Página de inicio de sesión
-├── register.html         # Página de registro
-├── style.css             # Estilos personalizados (tema otaku)
-├── Img/
-│   ├── fondo3.jpg        # Fondo principal
-│   ├── fondologin.jpg    # Fondo para login/registro
-│   └── ...               # Otros assets (opcional)
-└── README.md             # Este archivo
+├── index.html             # Página principal (SiteOtaku)
+├── css/                   # Carpeta para estilos
+│   └── style.css          # Estilos personalizados (tema otaku)
+├── Img/                   # Carpeta de imágenes
+│   ├── fondo3.jpg         # Fondo para index
+│   ├── fondologin.jpg     # Fondo para login y registro
+│   └── ...                # Otros assets (personajes, logos, etc.)
+├── html/                  # Subcarpeta para páginas secundarias
+│   ├── login.html         # Página de inicio de sesión
+│   └── register.html      # Página de registro
+└── README.md              # Información del proyecto
+
