@@ -34,3 +34,20 @@ Tarea25/
 │   ├── fondologin.jpg    # Fondo para login/registro
 │   └── ...               # Otros assets (opcional)
 └── README.md             # Este archivo
+
+```
+
+
+# 🌿 Ramas y características
+
+main/master: Rama principal con la versión estable del proyecto.
+
+nueva-rama: Rama creada para añadir mejoras visuales y funcionales específicas, incluyendo la adición de un footer con información de contacto y enlaces útiles para la navegación.
+
+# 📌 Cambios en la rama nueva-rama
+
+Se agregó un footer responsivo en todas las páginas principales.
+
+El footer incluye enlaces a redes sociales, información de contacto y derechos de autor.
+
+Mejoras menores en estilos CSS para cohesión visual con el tema Otaku.
